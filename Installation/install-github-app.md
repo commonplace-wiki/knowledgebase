@@ -18,6 +18,12 @@ To create it manually instead, go to [github.com/settings/apps/new](https://gith
 * **Repository permissions**: Contents → Read and write.
 * **Where can this app be installed**: your account or organization is enough; there is no need to make it public.
 
+![Create GitHub App form with homepage and callback URL](/assets/Screenshot-2026-07-19-at-11.09.43.png)
+
+Under repository permissions, grant Contents read and write:
+
+![Contents permission set to Read and write](/assets/Screenshot-2026-07-19-at-11.09.57.png)
+
 After creating the App, generate a client secret and set both values as environment variables:
 
 ```
