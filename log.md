@@ -1,8 +1,8 @@
 # Update Log
 
 ## 2026-07-19
-* **Update**: Modified [GitHub](/github.md).
-* **Creation**: Created [GitHub](/github.md).
+* **Update**: Modified [GitHub](/Git-Repositories/github.md).
+* **Creation**: Created [GitHub](/Git-Repositories/github.md).
 * **Creation**: Created [Git Repositories](/git-repositories.md).
 * **Creation**: Created [Install on Kubernetes](/Installation/install-on-kubernetes.md).
 * **Move**: Moved [Install on Vercel](/Installation/install-on-vercel.md).
