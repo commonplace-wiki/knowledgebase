@@ -2,7 +2,7 @@
 type: Wiki Page
 title: Migrate from Confluence
 description: Move a Confluence Cloud space into a Commonplace wiki, agent-driven or by script.
-timestamp: '2026-07-19T12:30:00.000Z'
+timestamp: '2026-07-19T19:54:54.572Z'
 ---
 
 Commonplace ships a migration for Confluence Cloud. It exports a space, converts it to an [Open Knowledge Format](/open-knowledge-format.md) bundle (Markdown files with YAML frontmatter), and pushes the result to your wiki's [Git repository](/Installation/git-repository.md). It is packaged as a Claude Code skill named `confluence-to-commonplace` in the [Commonplace repository](https://github.com/commonplace-wiki/commonplace), so a coding agent runs the export, conversion, review, and push, and asks before overwriting or pushing anything.
@@ -19,7 +19,7 @@ Commonplace ships a migration for Confluence Cloud. It exports a space, converts
 Clone the Commonplace repository and start Claude Code in it, then ask:
 
 ```
-Migrate the Confluence space ED from https://acme.atlassian.net
+Migrate the Confluence space <KEY> from https://acme.atlassian.net
 to the repository my-org/wiki.
 ```
 
@@ -39,13 +39,13 @@ python3 .claude/skills/confluence-to-commonplace/scripts/migrate.py \
 
 ## What gets migrated
 
-| Confluence | In the wiki |
-| --- | --- |
-| Page hierarchy | Folders: a page becomes `<slug>.md`, its children live in `<slug>/`. The space homepage becomes `overview.md`, and a root `index.md` listing the top-level pages is generated. |
-| Page content | Markdown. Code macros become fenced blocks with language, info/note/warning/tip panels become blockquotes, task lists become checkboxes; tables, expand/status/toc macros, emoticons, and user mentions are handled. |
-| Page-to-page links | Bundle-absolute links (`/a/b.md`), as described in [Open Knowledge Format](/open-knowledge-format.md). Links that cannot be resolved fall back to the original Confluence URL and are reported. |
-| Attachments | Downloaded into an `assets/` folder next to the page, with image and attachment references rewritten. |
-| Metadata | Frontmatter per page: `title`, `description` (first paragraph), `tags` (Confluence labels), `timestamp` (last version date), and `confluence_id` for traceability. |
+| Confluence         | In the wiki                                                                                                                                                                                                          |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Page hierarchy     | Folders: a page becomes `<slug>.md`, its children live in `<slug>/`. The space homepage becomes `overview.md`, and a root `index.md` listing the top-level pages is generated.                                       |
+| Page content       | Markdown. Code macros become fenced blocks with language, info/note/warning/tip panels become blockquotes, task lists become checkboxes; tables, expand/status/toc macros, emoticons, and user mentions are handled. |
+| Page-to-page links | Bundle-absolute links (`/a/b.md`), as described in [Open Knowledge Format](/open-knowledge-format.md). Links that cannot be resolved fall back to the original Confluence URL and are reported.                      |
+| Attachments        | Downloaded into an `assets/` folder next to the page, with image and attachment references rewritten.                                                                                                                |
+| Metadata           | Frontmatter per page: `title`, `description` (first paragraph), `tags` (Confluence labels), `timestamp` (last version date), and `confluence_id` for traceability.                                                   |
 
 A `log.md` recording the migration is written as well.
 
