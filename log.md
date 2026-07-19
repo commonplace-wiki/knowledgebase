@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Move**: Moved [Install GitHub App](/Installation/install-github-app.md).
 * **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
 * **Move**: Moved [Install Git App](/Installation/install-github-app.md).
 * **Update**: Modified [Install Git App](/Installation/install-github-app.md).
