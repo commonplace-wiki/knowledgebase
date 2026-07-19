@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Creation**: Created [Local Git](/Git-Repositories/local-git.md).
 * **Creation**: Created [GitLab](/Git-Repositories/gitlab.md).
 * **Deletion**: Deleted [Git Repositories](/git-repositories.md).
 * **Move**: Moved [GitHub](/Git-Repositories/github.md).
