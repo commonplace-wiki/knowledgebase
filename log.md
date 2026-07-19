@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Update**: Modified [Open Knowledge Format](/open-knowledge-format.md).
 * **Update**: Modified [Migrate from Confluence](/migrate-from-confluence.md).
 * **Update**: Modified [Migrate from Confluence](/migrate-from-confluence.md).
 * **Deletion**: Deleted [Writing Pages](/writing-pages.md).
