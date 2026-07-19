@@ -2,10 +2,10 @@
 # Maps a directory path ("" for the root) to its pages/subdirectories in display order.
 '':
   - getting-started
-  - writing-pages
   - Installation
   - configuration
   - access-control
+  - writing-pages
   - Git-Repositories
   - mcp
   - skill
