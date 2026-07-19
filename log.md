@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Move**: Moved [Install Git App](/Installation/install-git-app.md).
 * **Update**: Modified [Install Git App](/Installation/install-git-app.md).
 * **Deletion**: Deleted [Installation](/installation.md).
 * **Move**: Moved [Set up Git App](/Installation/install-git-app.md).
