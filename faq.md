@@ -42,4 +42,4 @@ Yes, Commonplace ships a Confluence migration; see the [Commonplace repository](
 Through the built-in MCP server; see [MCP](/mcp.md).
 
 **Is GitLab supported?**
-Not yet; see [GitLab](/Git-Repositories/gitlab.md).
+Yes — gitlab.com and self-hosted instances; see [GitLab](/Git-Repositories/gitlab.md).

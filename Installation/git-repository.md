@@ -9,7 +9,7 @@ All wiki content is stored in a single Git repository, following the [Open Knowl
 
 ## Create the repository
 
-Create a new repository on GitHub (private or public, both work). An empty repository is fine; Commonplace creates the files it needs on first use.
+Create a new repository on GitHub or GitLab (private or public, both work). An empty repository is fine; Commonplace creates the files it needs on first use.
 
 If you want to start from a template, this knowledge base itself is a working example: [commonplace-wiki/knowledgebase](https://github.com/commonplace-wiki/knowledgebase).
 
@@ -35,11 +35,11 @@ If you want to start from a template, this knowledge base itself is a working ex
 
 Read and write permissions follow the repository:
 
-* Users sign in with GitHub. Whoever can read the repository can read the wiki, and whoever can push can edit. See [Access Control](/access-control.md).
-* Commits made through the wiki are attributed to the signed-in GitHub user, so `git blame` and the history stay meaningful.
+* Users sign in with the Git provider (GitHub or GitLab). Whoever can read the repository can read the wiki, and whoever can push can edit. See [Access Control](/access-control.md).
+* Commits made through the wiki are attributed to the signed-in user, so `git blame` and the history stay meaningful.
 
 ## Branch and subdirectory
 
 By default Commonplace uses the repository's default branch and the repository root. Set `GIT_BRANCH` to serve a different branch, or `GIT_ROOT` to keep the wiki in a subdirectory (useful when the wiki lives inside an existing project repository).
 
-Next step: [Install GitHub App](/Installation/install-github-app.md).
+Next step: [Install GitHub App](/Installation/install-github-app.md) — or, for GitLab, see [GitLab](/Git-Repositories/gitlab.md).

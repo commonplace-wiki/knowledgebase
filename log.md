@@ -1,6 +1,11 @@
 # Update Log
 
 ## 2026-07-19
+* **Update**: Modified [FAQ](/faq.md).
+* **Update**: Modified [Git Repositories](/Git-Repositories/index.md).
+* **Update**: Modified [Local Git](/Git-Repositories/local-git.md).
+* **Update**: Modified [GitHub](/Git-Repositories/github.md).
+* **Update**: Modified [Git Repository](/Installation/git-repository.md).
 * **Update**: Modified [Configuration](/configuration.md).
 * **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
 * **Update**: Modified [Commonplace](/index.md).

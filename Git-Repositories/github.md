@@ -5,7 +5,7 @@ description: GitHub is the primary supported backend for Commonplace wikis.
 timestamp: '2026-07-19T10:00:54.000Z'
 ---
 
-GitHub is currently the primary supported Git provider. Point `GIT_REPO` at a GitHub repository URL and Commonplace detects the provider from the host:
+GitHub is a fully supported Git provider. Point `GIT_REPO` at a GitHub repository URL and Commonplace detects the provider from the host:
 
 ```
 GIT_REPO=https://github.com/owner/wiki
