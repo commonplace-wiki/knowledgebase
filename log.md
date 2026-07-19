@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Update**: Modified [Commonplace](/index.md).
 * **Creation**: Created [Skill](/skill.md).
 * **Update**: Modified [MCP](/mcp.md).
 * **Creation**: Created [FAQ](/faq.md).

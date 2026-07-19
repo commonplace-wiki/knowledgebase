@@ -6,6 +6,8 @@ Keep your knowledge in a simple Git repository, following [Open Knowledge Forma
 
 Commonplace acts as a nice UI.
 
+![The Commonplace UI showing this knowledge base](/assets/Screenshot-2026-07-19-at-12.07.55.png)
+
 ## Documentation
 
 * [Getting Started](/getting-started.md) — from zero to a running wiki in five minutes
