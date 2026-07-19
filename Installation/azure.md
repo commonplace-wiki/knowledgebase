@@ -1,7 +1,7 @@
 ---
 type: Wiki Page
-title: Azure
-timestamp: '2026-07-19T09:42:44.976Z'
+title: Install on Azure
+timestamp: '2026-07-19T09:44:34.093Z'
 ---
 
 How to install Commonplace on Azure
