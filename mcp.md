@@ -61,3 +61,5 @@ Any client that supports the Streamable HTTP transport works. Typical JSON confi
 * Pages are markdown files with YAML frontmatter; `type` is required and set automatically when omitted.
 * Link between pages with bundle-absolute paths: `[Installation](/Installation/index.md)`.
 * When updating a page, first `get_page` and pass the returned `sha` to `save_page`, so concurrent edits are detected instead of overwritten.
+
+To teach these conventions to an agent instead of hoping it discovers them, set up a [Skill](/skill.md).

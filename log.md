@@ -1,6 +1,24 @@
 # Update Log
 
 ## 2026-07-19
+* **Creation**: Created [Skill](/skill.md).
+* **Update**: Modified [MCP](/mcp.md).
+* **Creation**: Created [FAQ](/faq.md).
+* **Creation**: Created [Access Control](/access-control.md).
+* **Creation**: Created [Open Knowledge Format](/open-knowledge-format.md).
+* **Creation**: Created [Configuration](/configuration.md).
+* **Creation**: Created [Writing Pages](/writing-pages.md).
+* **Creation**: Created [Getting Started](/getting-started.md).
+* **Creation**: Created [Git Repositories](/Git-Repositories/index.md).
+* **Update**: Modified [Local Git](/Git-Repositories/local-git.md).
+* **Update**: Modified [GitLab](/Git-Repositories/gitlab.md).
+* **Update**: Modified [GitHub](/Git-Repositories/github.md).
+* **Update**: Modified [Install on Kubernetes](/Installation/install-on-kubernetes.md).
+* **Update**: Modified [Install on Azure](/Installation/install-on-azure.md).
+* **Update**: Modified [Install on Vercel](/Installation/install-on-vercel.md).
+* **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
+* **Update**: Modified [Git Repository](/Installation/git-repository.md).
+* **Update**: Modified [Installation](/Installation/index.md).
 * **Creation**: Created [Local Git](/Git-Repositories/local-git.md).
 * **Creation**: Created [GitLab](/Git-Repositories/gitlab.md).
 * **Deletion**: Deleted [Git Repositories](/git-repositories.md).

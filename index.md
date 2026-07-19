@@ -6,6 +6,19 @@ Keep your knowledge in a simple Git repository, following [Open Knowledge Forma
 
 Commonplace acts as a nice UI.
 
+## Documentation
+
+* [Getting Started](/getting-started.md) — from zero to a running wiki in five minutes
+* [Installation](/Installation/index.md) — deploy on [Vercel](/Installation/install-on-vercel.md), [Azure](/Installation/install-on-azure.md), or [Kubernetes](/Installation/install-on-kubernetes.md)
+* [Writing Pages](/writing-pages.md) — Markdown conventions, frontmatter, links, and assets
+* [Configuration](/configuration.md) — wiki settings and environment variables
+* [Access Control](/access-control.md) — who can read and edit
+* [Git Repositories](/Git-Repositories/index.md) — supported providers
+* [Open Knowledge Format](/open-knowledge-format.md) — the storage format behind the wiki
+* [MCP](/mcp.md) — connect AI agents and assistants
+* [Skill](/skill.md) — configure AI agents to use the wiki well
+* [FAQ](/faq.md) — common questions and troubleshooting
+
 ## GitHub
 
 * &#x20;The source code is available under [https://github.com/commonplace-wiki/commonplace](https://github.com/commonplace-wiki/commonplace)
