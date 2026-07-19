@@ -1,0 +1,5 @@
+# Commonplace wiki settings — edited via the wiki UI, safe to edit by hand.
+name: Commonplace
+description: ''
+default_type: Wiki Page
+update_log: true
