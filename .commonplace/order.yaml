@@ -1,0 +1,13 @@
+# Commonplace sidebar order — edited via drag & drop in the wiki UI, safe to edit by hand.
+# Maps a directory path ("" for the root) to its pages/subdirectories in display order.
+'':
+  - getting-started
+  - access-control
+  - configuration
+  - faq
+  - Git-Repositories
+  - Installation
+  - mcp
+  - open-knowledge-format
+  - skill
+  - writing-pages
