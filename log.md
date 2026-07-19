@@ -1,10 +1,10 @@
 # Update Log
 
 ## 2026-07-19
-* **Update**: Modified [Install on Azure](/Installation/azure.md).
+* **Update**: Modified [Install on Azure](/Installation/install-on-azure.md).
 * **Creation**: Created [Git Repository](/Installation/git-repository.md).
 * **Creation**: Created [MCP](/mcp.md).
-* **Creation**: Created [Azure](/Installation/azure.md).
+* **Creation**: Created [Azure](/Installation/install-on-azure.md).
 * **Creation**: Created [Vercel](/Installation/vercel.md).
 * **Move**: Moved [Install GitHub App](/Installation/install-github-app.md).
 * **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
