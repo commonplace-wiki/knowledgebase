@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Creation**: Created [MCP](/mcp.md).
 * **Creation**: Created [Azure](/Installation/azure.md).
 * **Creation**: Created [Vercel](/Installation/vercel.md).
 * **Move**: Moved [Install GitHub App](/Installation/install-github-app.md).
