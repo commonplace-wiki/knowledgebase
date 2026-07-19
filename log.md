@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Update**: Modified [Configuration](/configuration.md).
 * **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
 * **Update**: Modified [Commonplace](/index.md).
 * **Creation**: Created [Skill](/skill.md).
