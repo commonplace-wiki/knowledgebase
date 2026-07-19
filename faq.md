@@ -28,7 +28,7 @@ Yes. Pages are Markdown files in a [Git repository](/Installation/git-repository
 Use git: the full history is in the repository, so `git revert` or restoring a file from an earlier commit brings it back. The [update log](/log.md) helps find when a change happened.
 
 **Why did my links break after moving a page?**
-Links use bundle-absolute file paths, so moving or renaming a file changes its address. Update the links that point to it; see [Writing Pages](/writing-pages.md).
+Links use bundle-absolute file paths, so moving or renaming a file changes its address. Update the links that point to it; see [Open Knowledge Format](/open-knowledge-format.md).
 
 **Where do images live?**
 In the `assets/` folder of the repository. The editor uploads them there automatically.
@@ -36,7 +36,7 @@ In the `assets/` folder of the repository. The editor uploads them there automat
 ## Migration and integrations
 
 **Can I migrate from Confluence?**
-Yes, Commonplace ships a Confluence migration; see the [Commonplace repository](https://github.com/commonplace-wiki/commonplace) for the current instructions.
+Yes, Commonplace ships a Confluence migration; see [Migrate from Confluence](/migrate-from-confluence.md).
 
 **How do AI assistants connect?**
 Through the built-in MCP server; see [MCP](/mcp.md).

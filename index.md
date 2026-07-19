@@ -12,11 +12,11 @@ Commonplace acts as a pretty frontend.
 
 * [Getting Started](/getting-started.md) — from zero to a running wiki in five minutes
 * [Installation](/Installation/index.md) — deploy on [Vercel](/Installation/install-on-vercel.md), [Azure](/Installation/install-on-azure.md), or [Kubernetes](/Installation/install-on-kubernetes.md)
-* [Writing Pages](/writing-pages.md) — Markdown conventions, frontmatter, links, and assets
+* [Migrate from Confluence](/migrate-from-confluence.md) — move a Confluence space into the wiki
 * [Configuration](/configuration.md) — wiki settings and environment variables
 * [Access Control](/access-control.md) — who can read and edit
 * [Git Repositories](/Git-Repositories/index.md) — supported providers
-* [Open Knowledge Format](/open-knowledge-format.md) — the storage format behind the wiki
+* [Open Knowledge Format](/open-knowledge-format.md) — the storage format behind the wiki and the conventions for writing pages
 * [MCP](/mcp.md) — connect AI agents and assistants
 * [Skill](/skill.md) — configure AI agents to use the wiki well
 * [FAQ](/faq.md) — common questions and troubleshooting

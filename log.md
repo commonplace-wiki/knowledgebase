@@ -1,6 +1,8 @@
 # Update Log
 
 ## 2026-07-19
+* **Deletion**: Deleted [Writing Pages](/writing-pages.md).
+* **Update**: Modified [Open Knowledge Format](/open-knowledge-format.md).
 * **Update**: Modified [FAQ](/faq.md).
 * **Update**: Modified [Git Repositories](/Git-Repositories/index.md).
 * **Update**: Modified [Local Git](/Git-Repositories/local-git.md).

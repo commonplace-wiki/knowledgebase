@@ -28,7 +28,7 @@ For a hosted instance, follow [Install on Vercel](/Installation/install-on-verce
 
 ## 3. Sign in and write your first page
 
-Sign in with GitHub, open the homepage, and start editing. Every save becomes a git commit in your repository, attributed to you. The Markdown conventions are described in [Writing Pages](/writing-pages.md).
+Sign in with GitHub, open the homepage, and start editing. Every save becomes a git commit in your repository, attributed to you. The Markdown conventions are described in [Open Knowledge Format](/open-knowledge-format.md).
 
 ## 4. Optional next steps
 

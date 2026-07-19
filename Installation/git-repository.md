@@ -27,7 +27,7 @@ If you want to start from a template, this knowledge base itself is a working ex
 └── ...
 ```
 
-* Every page is a Markdown file with YAML frontmatter. See [Writing Pages](/writing-pages.md).
+* Every page is a Markdown file with YAML frontmatter. See [Open Knowledge Format](/open-knowledge-format.md).
 * Folders group pages into sections. A folder's `index.md` acts as its landing page.
 * Images and attachments go into `assets/` and are uploaded there automatically when you use the editor.
 
