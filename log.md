@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-19
+* **Move**: Moved [Install on Vercel](/Installation/install-on-vercel.md).
 * **Update**: Modified [Install on Vercel](/Installation/install-on-vercel.md).
 * **Move**: Moved [Install on Azure](/Installation/install-on-azure.md).
 * **Update**: Modified [Install on Azure](/Installation/install-on-azure.md).
