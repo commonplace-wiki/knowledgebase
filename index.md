@@ -2,7 +2,7 @@ An open-source wiki, knowledge base, and Confluence alternative.
 
 ## Idea
 
-Keep your knowledge in a simple Git repository, following [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).&#x20;
+Keep your knowledge in a simple Git repository, Ai-friendly, following [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).&#x20;
 
 Commonplace acts as a pretty frontend.
 
