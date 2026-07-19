@@ -2,6 +2,7 @@
 # Maps a directory path ("" for the root) to its pages/subdirectories in display order.
 '':
   - getting-started
+  - writing-pages
   - configuration
   - faq
   - access-control
@@ -10,4 +11,3 @@
   - mcp
   - open-knowledge-format
   - skill
-  - writing-pages
