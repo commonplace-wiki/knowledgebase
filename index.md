@@ -1,4 +1,4 @@
-An open-source wiki and Confluence alternative.
+An open-source wiki, knowledge base, and Confluence alternative.
 
 ## Idea
 
