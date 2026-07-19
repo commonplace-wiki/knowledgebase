@@ -2,7 +2,7 @@
 type: Wiki Page
 title: Migrate from Confluence
 description: Move a Confluence Cloud space into a Commonplace wiki, agent-driven or by script.
-timestamp: '2026-07-19T19:54:54.572Z'
+timestamp: '2026-07-19T19:55:14.321Z'
 ---
 
 Commonplace ships a migration for Confluence Cloud. It exports a space, converts it to an [Open Knowledge Format](/open-knowledge-format.md) bundle (Markdown files with YAML frontmatter), and pushes the result to your wiki's [Git repository](/Installation/git-repository.md). It is packaged as a Claude Code skill named `confluence-to-commonplace` in the [Commonplace repository](https://github.com/commonplace-wiki/commonplace), so a coding agent runs the export, conversion, review, and push, and asks before overwriting or pushing anything.
@@ -30,7 +30,7 @@ If you prefer to run it without an agent, call the underlying script directly (`
 ```bash
 python3 .claude/skills/confluence-to-commonplace/scripts/migrate.py \
   --site https://acme.atlassian.net \
-  --space ED \
+  --space <KEY> \
   --out /path/to/wiki-clone \
   --email user@acme.com \
   --token-file ~/.confluence_token \
