@@ -1,7 +1,7 @@
 ---
 type: Wiki Page
-title: Install Git App
-timestamp: '2026-07-19T08:36:13.191Z'
+title: Install GitHub App
+timestamp: '2026-07-19T08:36:36.557Z'
 ---
 
 ## Install App
