@@ -25,3 +25,7 @@ Commonplace acts as a pretty frontend.
 
 * &#x20;The source code is available under [https://github.com/commonplace-wiki/commonplace](https://github.com/commonplace-wiki/commonplace)
 * The linked repository with this knowledge base is [https://github.com/commonplace-wiki/knowledgebase](https://github.com/commonplace-wiki/knowledgebase)
+
+## Trivia
+
+Commonplace is named after the commonplace book, the notebook scholars used for centuries to collect and organize knowledge, and it's also literally that: a common place for your team's knowledge, stored in Git.
