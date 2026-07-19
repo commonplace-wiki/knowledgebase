@@ -28,4 +28,4 @@ Commonplace acts as a pretty frontend.
 
 ## Trivia
 
-Commonplace is named after the commonplace book, the notebook scholars used for centuries to collect and organize knowledge, and it's also literally that: a common place for your team's knowledge, stored in Git.
+Commonplace is named after the [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book), the notebook scholars used for centuries to collect and organize knowledge, and it's also literally that: a common place for your team's knowledge, stored in Git.
