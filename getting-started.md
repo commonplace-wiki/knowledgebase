@@ -32,6 +32,8 @@ For a hosted instance, follow [Install on Vercel](/Installation/install-on-verce
 
 Sign in with GitHub, open the homepage, and start editing. Every save becomes a git commit in your repository, attributed to you. The Markdown conventions are described in [Open Knowledge Format](/open-knowledge-format.md).
 
+Type `@` while editing to mention a teammate; it links to their GitHub profile. Who is suggested depends on the App's permissions, see [Access Control](/access-control.md).
+
 ## 4. Optional next steps
 
 * Adjust the wiki name and settings: [Configuration](/configuration.md)

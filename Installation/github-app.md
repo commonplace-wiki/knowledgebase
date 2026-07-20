@@ -15,18 +15,17 @@ To create it manually instead, go to [*https://github.com/organizations/YOUR\_OR
 
 * **Homepage URL**: the URL of your Commonplace instance, e.g. [`https://commonplace.example.com`](https://wiki.example.com) (or `http://localhost:3000` for local development).
 * **Callback URL**: `<your instance URL>/api/auth/callback`
-* **Repository permissions**:&#x20;
-  * Contents → Read and write
-* Organization permissions:
-  * Members -> Read
-* **Where can this app be installed**:
-  * Only on this account
+* **Repository permissions**: Contents → Read and write.
+* **Organization permissions**: Members → Read-only. Optional, and only useful for organization-owned repositories: it lets @-mentions in the editor list everyone in the organization. Without it, mentions still work, but only offer the repository's collaborators.
+* **Where can this app be installed**: your account or organization is enough; there is no need to make it public.
 
 ![Create GitHub App form with homepage and callback URL](/assets/Screenshot-2026-07-19-at-11.09.43.png)
 
 Under repository permissions, grant Contents read and write:
 
 ![Contents permission set to Read and write](/assets/Screenshot-2026-07-19-at-11.09.57.png)
+
+If you add Members read-only later, everyone who already installed the App has to approve the new permission before mentions can see the full organization. GitHub emails organization owners a request; until it is approved, the App keeps working with its old permissions.
 
 After creating the App, generate a client secret and set both values as environment variables:
 

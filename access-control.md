@@ -21,6 +21,17 @@ Commonplace has no user database of its own. Identity comes from GitHub sign-in,
 
 Use GitHub's normal mechanisms: add people or teams as collaborators on the repository, or manage access through your organization. Removing repository access removes wiki access with it; there is nothing to clean up on the Commonplace side.
 
+## Mentions
+
+Typing `@` in the editor suggests people to link to. Who appears depends on what the GitHub App is allowed to read:
+
+| App permission | Who is suggested |
+| --- | --- |
+| Contents only (the default) | The repository's collaborators, including organization members with access to it |
+| Contents plus Members read-only | Everyone in the organization |
+
+Members read-only is optional, and adding it to an existing App requires organization owners to approve the new permission before it takes effect. See [Install GitHub App](/Installation/install-github-app.md). Suggestions are a convenience only: mentioning someone links to their profile, it does not grant them access or notify them.
+
 ## AI agents
 
 Agents authenticate to the [MCP endpoint](/mcp.md) with a GitHub token instead of the sign-in flow. Use a fine-grained personal access token restricted to the wiki repository with Contents read/write. The same rule applies: commits are attributed to the token's user.
