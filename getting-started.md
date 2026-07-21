@@ -2,7 +2,7 @@
 type: Wiki Page
 title: Getting Started
 description: From zero to a running wiki in about five minutes.
-timestamp: '2026-07-19T10:00:54.000Z'
+timestamp: '2026-07-21T14:58:55.923Z'
 ---
 
 This guide takes you from nothing to a running Commonplace wiki. You need a GitHub account and either Docker or a Vercel account.
@@ -15,10 +15,12 @@ Create a new repository on GitHub, for example `my-org/wiki`. It can stay empty 
 
 The quickest local start is Docker:
 
+Replace [https://github.com/commonplace/knowledge](https://github.com/commonplace/knowledge) with your repository.
+
 ```bash
 docker run -p 3000:3000 \
   -e SESSION_SECRET=$(openssl rand -hex 32) \
-  -e GIT_REPO=https://github.com/my-org/wiki \
+  -e GIT_REPO=https://github.com/commonplace/knowledge \
   commonplacewiki/commonplace
 ```
 
