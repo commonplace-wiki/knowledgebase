@@ -1,5 +1,8 @@
 # Update Log
 
+## 2026-07-21
+* **Update**: Modified [Getting Started](/getting-started.md).
+
 ## 2026-07-19
 * **Update**: Modified [Open Knowledge Format](/open-knowledge-format.md).
 * **Update**: Modified [Migrate from Confluence](/migrate-from-confluence.md).
