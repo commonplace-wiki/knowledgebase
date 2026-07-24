@@ -1,8 +1,8 @@
 ---
 type: Wiki Page
 title: GitHub App
-description: Create a GitHub App for sign-in and grant it access to the wiki repository.
-timestamp: '2026-07-24T07:07:11.768Z'
+description: If your Git Repository is hosted on GitHub, set up a a GitHub app.
+timestamp: '2026-07-24T07:08:00.242Z'
 ---
 
 Commonplace uses a GitHub App for two things: users sign in with their GitHub account, and the app reads and writes the wiki repository on their behalf.
