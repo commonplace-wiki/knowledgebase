@@ -2,7 +2,7 @@
 type: Wiki Page
 title: GitHub App
 description: Create a GitHub App for sign-in and grant it access to the wiki repository.
-timestamp: '2026-07-24T07:03:58.106Z'
+timestamp: '2026-07-24T07:07:11.768Z'
 ---
 
 Commonplace uses a GitHub App for two things: users sign in with their GitHub account, and the app reads and writes the wiki repository on their behalf.
@@ -15,8 +15,12 @@ To create it manually instead, go to [*https://github.com/organizations/YOUR\_OR
 
 * **Homepage URL**: the URL of your Commonplace instance, e.g. [`https://wiki.example.com`](https://wiki.example.com) (or `http://localhost:3000` for local development).
 * **Callback URL**: `<your instance URL>/api/auth/callback`
-* **Repository permissions**: Contents → Read and write.
-* **Where can this app be installed**: your account or organization is enough; there is no need to make it public.
+* **Repository permissions**:&#x20;
+  * Contents → Read and write
+* Organization permissions:
+  * Members -> Read
+* **Where can this app be installed**:
+  * Only on this account
 
 ![Create GitHub App form with homepage and callback URL](/assets/Screenshot-2026-07-19-at-11.09.43.png)
 
