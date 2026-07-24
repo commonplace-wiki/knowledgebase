@@ -1,8 +1,8 @@
 ---
 type: Wiki Page
-title: Install GitHub App
+title: GitHub App
 description: Create a GitHub App for sign-in and grant it access to the wiki repository.
-timestamp: '2026-07-24T06:59:22.056Z'
+timestamp: '2026-07-24T06:59:47.882Z'
 ---
 
 Commonplace uses a GitHub App for two things: users sign in with their GitHub account, and the app reads and writes the wiki repository on their behalf.
