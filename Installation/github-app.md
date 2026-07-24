@@ -2,7 +2,7 @@
 type: Wiki Page
 title: GitHub App
 description: If your Git Repository is hosted on GitHub, set up a a GitHub app.
-timestamp: '2026-07-24T07:08:00.242Z'
+timestamp: '2026-07-24T07:08:26.571Z'
 ---
 
 Commonplace uses a GitHub App for two things: users sign in with their GitHub account, and the app reads and writes the wiki repository on their behalf.
@@ -13,7 +13,7 @@ The easiest way is the guided setup: when you start Commonplace without `GITHUB_
 
 To create it manually instead, go to [*https://github.com/organizations/YOUR\_ORGANIZATION/settings/apps*](https://github.com/organizations/YOUR_ORGANIZATION/settings/apps) (or [https://github.com/settings/apps](https://github.com/settings/apps) for a personal app), add a new GitHub App, and configure:
 
-* **Homepage URL**: the URL of your Commonplace instance, e.g. [`https://wiki.example.com`](https://wiki.example.com) (or `http://localhost:3000` for local development).
+* **Homepage URL**: the URL of your Commonplace instance, e.g. [`https://commonplace.example.com`](https://wiki.example.com) (or `http://localhost:3000` for local development).
 * **Callback URL**: `<your instance URL>/api/auth/callback`
 * **Repository permissions**:&#x20;
   * Contents → Read and write
