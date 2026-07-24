@@ -18,7 +18,7 @@ On Azure, run Commonplace as a container on App Service. The app is stateless, s
    | Name | Value |
    | --- | --- |
    | `GIT_REPO` | URL of your [wiki repository](/Installation/git-repository.md) |
-   | `GITHUB_CLIENT_ID` | from your [GitHub App](/Installation/install-github-app.md) |
+   | `GITHUB_CLIENT_ID` | from your [GitHub App](/Installation/github-app.md) |
    | `GITHUB_CLIENT_SECRET` | from your GitHub App |
    | `SESSION_SECRET` | output of `openssl rand -hex 32` |
    | `WEBSITES_PORT` | `3000` |

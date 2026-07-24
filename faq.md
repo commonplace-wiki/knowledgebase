@@ -8,7 +8,7 @@ timestamp: '2026-07-19T10:00:54.000Z'
 ## Setup
 
 **Sign-in redirects to GitHub but fails or loops.**
-The GitHub App's callback URL must exactly match your instance URL, including scheme and host: `https://<your-host>/api/auth/callback`. A mismatch after adding a custom domain is the most common cause. See [Install GitHub App](/Installation/install-github-app.md).
+The GitHub App's callback URL must exactly match your instance URL, including scheme and host: `https://<your-host>/api/auth/callback`. A mismatch after adding a custom domain is the most common cause. See [Install GitHub App](/Installation/github-app.md).
 
 **I signed in but get no access.**
 Your GitHub user needs read access to the repository in `GIT_REPO` (for private repositories), and the GitHub App must be installed on that repository. Check both under the repository's settings on GitHub.

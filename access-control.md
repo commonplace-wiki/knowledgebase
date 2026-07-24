@@ -14,7 +14,7 @@ Commonplace has no user database of its own. Identity comes from GitHub sign-in,
 | Public | Everyone, no sign-in required | GitHub users with push access |
 | Private | GitHub users with read access | GitHub users with push access |
 
-* Users sign in through the [GitHub App](/Installation/install-github-app.md). Commonplace acts with the signed-in user's permissions, never with elevated rights of its own.
+* Users sign in through the [GitHub App](/Installation/github-app.md). Commonplace acts with the signed-in user's permissions, never with elevated rights of its own.
 * Every edit is a git commit attributed to the user who made it, so the repository history is a complete audit trail.
 
 ## Granting and revoking access

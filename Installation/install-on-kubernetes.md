@@ -63,7 +63,7 @@ Expose the Service with your usual Ingress or Gateway setup and TLS termination.
 
 ## GitHub App
 
-Once the public URL is known, set the GitHub App's **Homepage URL** to it and the **Callback URL** to `https://<your-host>/api/auth/callback`. See [Install GitHub App](/Installation/install-github-app.md).
+Once the public URL is known, set the GitHub App's **Homepage URL** to it and the **Callback URL** to `https://<your-host>/api/auth/callback`. See [Install GitHub App](/Installation/github-app.md).
 
 ## Notes
 

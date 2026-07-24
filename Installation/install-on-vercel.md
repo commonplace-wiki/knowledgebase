@@ -16,7 +16,7 @@ Vercel is the fastest way to run a hosted Commonplace instance. The app is state
    | Variable | Value |
    | --- | --- |
    | `GIT_REPO` | URL of your [wiki repository](/Installation/git-repository.md), e.g. `https://github.com/owner/wiki` |
-   | `GITHUB_CLIENT_ID` | from your [GitHub App](/Installation/install-github-app.md) |
+   | `GITHUB_CLIENT_ID` | from your [GitHub App](/Installation/github-app.md) |
    | `GITHUB_CLIENT_SECRET` | from your GitHub App |
    | `SESSION_SECRET` | output of `openssl rand -hex 32` |
 

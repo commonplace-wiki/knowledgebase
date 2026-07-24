@@ -42,4 +42,4 @@ Read and write permissions follow the repository:
 
 By default Commonplace uses the repository's default branch and the repository root. Set `GIT_BRANCH` to serve a different branch, or `GIT_ROOT` to keep the wiki in a subdirectory (useful when the wiki lives inside an existing project repository).
 
-Next step: [Install GitHub App](/Installation/install-github-app.md) — or, for GitLab, see [GitLab](/Git-Repositories/gitlab.md).
+Next step: [Install GitHub App](/Installation/github-app.md) — or, for GitLab, see [GitLab](/Git-Repositories/gitlab.md).

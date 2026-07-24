@@ -13,7 +13,7 @@ GIT_REPO=https://github.com/owner/wiki
 
 ## Authentication
 
-* **Users** sign in via the [GitHub App](/Installation/install-github-app.md). Commonplace acts on their behalf, so every edit becomes a commit attributed to the signed-in user.
+* **Users** sign in via the [GitHub App](/Installation/github-app.md). Commonplace acts on their behalf, so every edit becomes a commit attributed to the signed-in user.
 * **Permissions** follow the repository: read access to the repository means read access to the wiki, push access means edit access. See [Access Control](/access-control.md).
 * **AI agents** authenticate with a fine-grained personal access token (Contents read/write on the wiki repository) via the [MCP endpoint](/mcp.md).
 

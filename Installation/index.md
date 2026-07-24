@@ -12,7 +12,7 @@ Commonplace is a stateless web application. All content lives in a Git repositor
 Every installation needs three things:
 
 1. A [Git repository](/Installation/git-repository.md) that stores the wiki content.
-2. A [GitHub App](/Installation/install-github-app.md) for sign-in and repository access.
+2. A [GitHub App](/Installation/github-app.md) for sign-in and repository access.
 3. A place to run the app. Pick one of the guides below.
 
 ## Configuration

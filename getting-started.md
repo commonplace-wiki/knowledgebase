@@ -24,7 +24,7 @@ docker run -p 3000:3000 \
   commonplacewiki/commonplace
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Without GitHub App credentials, the setup screen guides you through creating one; alternatively create it manually and pass `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`. See [Install GitHub App](/Installation/install-github-app.md).
+Open [http://localhost:3000](http://localhost:3000). Without GitHub App credentials, the setup screen guides you through creating one; alternatively create it manually and pass `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`. See [Install GitHub App](/Installation/github-app.md).
 
 For a hosted instance, follow [Install on Vercel](/Installation/install-on-vercel.md) instead.
 

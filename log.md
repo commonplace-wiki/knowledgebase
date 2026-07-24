@@ -1,8 +1,8 @@
 # Update Log
 
 ## 2026-07-24
-* **Update**: Modified [GitHub App](/Installation/install-github-app.md).
-* **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
+* **Update**: Modified [GitHub App](/Installation/github-app.md).
+* **Update**: Modified [Install GitHub App](/Installation/github-app.md).
 
 ## 2026-07-21
 * **Update**: Modified [Getting Started](/getting-started.md).
@@ -19,7 +19,7 @@
 * **Update**: Modified [GitHub](/Git-Repositories/github.md).
 * **Update**: Modified [Git Repository](/Installation/git-repository.md).
 * **Update**: Modified [Configuration](/configuration.md).
-* **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
+* **Update**: Modified [Install GitHub App](/Installation/github-app.md).
 * **Update**: Modified [Commonplace](/index.md).
 * **Creation**: Created [Skill](/skill.md).
 * **Update**: Modified [MCP](/mcp.md).
@@ -36,7 +36,7 @@
 * **Update**: Modified [Install on Kubernetes](/Installation/install-on-kubernetes.md).
 * **Update**: Modified [Install on Azure](/Installation/install-on-azure.md).
 * **Update**: Modified [Install on Vercel](/Installation/install-on-vercel.md).
-* **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
+* **Update**: Modified [Install GitHub App](/Installation/github-app.md).
 * **Update**: Modified [Git Repository](/Installation/git-repository.md).
 * **Update**: Modified [Installation](/Installation/index.md).
 * **Creation**: Created [Local Git](/Git-Repositories/local-git.md).
@@ -55,12 +55,12 @@
 * **Creation**: Created [MCP](/mcp.md).
 * **Creation**: Created [Azure](/Installation/install-on-azure.md).
 * **Creation**: Created [Vercel](/Installation/install-on-vercel.md).
-* **Move**: Moved [Install GitHub App](/Installation/install-github-app.md).
-* **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
-* **Move**: Moved [Install Git App](/Installation/install-github-app.md).
-* **Update**: Modified [Install Git App](/Installation/install-github-app.md).
+* **Move**: Moved [Install GitHub App](/Installation/github-app.md).
+* **Update**: Modified [Install GitHub App](/Installation/github-app.md).
+* **Move**: Moved [Install Git App](/Installation/github-app.md).
+* **Update**: Modified [Install Git App](/Installation/github-app.md).
 * **Deletion**: Deleted [Installation](/installation.md).
-* **Move**: Moved [Set up Git App](/Installation/install-github-app.md).
-* **Creation**: Created [Set up Git App](/Installation/install-github-app.md).
+* **Move**: Moved [Set up Git App](/Installation/github-app.md).
+* **Creation**: Created [Set up Git App](/Installation/github-app.md).
 * **Update**: Modified [Installation](/installation.md).
 * **Creation**: Created [Installation](/installation.md).
