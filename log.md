@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-07-24
+* **Update**: Modified [GitHub App](/Installation/install-github-app.md).
 * **Update**: Modified [Install GitHub App](/Installation/install-github-app.md).
 
 ## 2026-07-21
