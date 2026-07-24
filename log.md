@@ -8,6 +8,7 @@
 * **Update**: Modified [GitHub App](/Installation/github-app.md).
 * **Update**: Modified [GitHub App](/Installation/github-app.md).
 * **Update**: Modified [GitHub App](/Installation/github-app.md).
+* **Update**: Modified [GitHub App](/Installation/github-app.md).
 * **Update**: Modified [Install GitHub App](/Installation/github-app.md).
 
 ## 2026-07-21
