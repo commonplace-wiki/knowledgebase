@@ -19,7 +19,7 @@ It speaks the MCP Streamable HTTP transport and offers three tools:
 
 ## Authentication
 
-Pass a GitHub token in the `Authorization` header:
+Pass a GitHub (or GitLab) token in the `Authorization` header:
 
 * A fine-grained personal access token with **Contents read/write** on the wiki repository (recommended), or a classic token with `repo` scope.
 * Reading works **without any token** when the wiki repository is public; writing always requires one.
