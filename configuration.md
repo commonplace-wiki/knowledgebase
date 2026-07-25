@@ -22,7 +22,7 @@ Set where the app runs (Docker, Vercel, Azure, Kubernetes):
 | `GIT_PROVIDER` | no | Set to `gitlab` when the repository lives on a self-hosted GitLab (for gitlab.com it is detected from the URL). |
 | `GIT_BRANCH` | no | Branch to serve. Defaults to `main`. |
 | `GIT_ROOT` | no | Subdirectory of the repository that contains the wiki. |
-| `PUBLIC_ORIGIN` | no | External origin as users reach the wiki, e.g. `https://wiki.example.com`. Set it behind a reverse proxy so OAuth redirects and absolute links do not depend on forwarded headers. |
+| `DEPLOYMENT_URL` | no | External URL as users reach the wiki, e.g. `https://wiki.example.com`. Set it behind a reverse proxy so OAuth redirects and absolute links do not depend on forwarded headers. |
 | `GOOGLE_SITE_VERIFICATION` | no | Google Search Console verification token (the `content` value of the "HTML tag" method); emitted as a meta tag on every page. |
 
 See the [Installation](/Installation/index.md) guides for where to set these on each platform, and [Access Control](/access-control.md) for how permissions are derived from the repository.
