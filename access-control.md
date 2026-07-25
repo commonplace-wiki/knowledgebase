@@ -30,7 +30,7 @@ Typing `@` in the editor suggests people to link to. Who appears depends on what
 | Contents only (the default) | The repository's collaborators, including organization members with access to it |
 | Contents plus Members read-only | Everyone in the organization |
 
-Members read-only is optional, and adding it to an existing App requires organization owners to approve the new permission before it takes effect. See [Install GitHub App](/Installation/install-github-app.md). Suggestions are a convenience only: mentioning someone links to their profile, it does not grant them access or notify them.
+Members read-only is optional, and adding it to an existing App requires organization owners to approve the new permission before it takes effect. See [GitHub App](/Installation/github-app.md). Suggestions are a convenience only: mentioning someone links to their profile, it does not grant them access or notify them.
 
 ## AI agents
 
