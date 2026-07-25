@@ -13,14 +13,23 @@ Set where the app runs (Docker, Vercel, Azure, Kubernetes):
 
 | Variable | Required | Description |
 | --- | --- | --- |
-| `GIT_REPO` | yes | URL of the content repository. One deployment serves exactly one repository. |
-| `GITHUB_CLIENT_ID` | yes | Client ID of the [GitHub App](/Installation/github-app.md) used for sign-in. |
-| `GITHUB_CLIENT_SECRET` | yes | Client secret of the GitHub App. |
-| `SESSION_SECRET` | yes | Random string for session signing; generate with `openssl rand -hex 32`. Changing it signs all users out. |
-| `GIT_BRANCH` | no | Branch to serve. Defaults to the repository's default branch. |
+| `GIT_REPO` | yes | URL of the content repository, or an absolute directory path for a [local repository](/Git-Repositories/local-git.md). One deployment serves exactly one repository. |
+| `SESSION_SECRET` | production | Random string for encrypting session cookies. Generate once with `openssl rand -hex 32` and keep it stable; changing it signs all users out. Without it, a public fallback is used and sessions can be forged. |
+| `GITHUB_CLIENT_ID` | no | Client ID of the [GitHub App](/Installation/github-app.md) used for sign-in. Without it, users sign in with a personal access token instead. |
+| `GITHUB_CLIENT_SECRET` | no | Client secret of the GitHub App. |
+| `GITLAB_CLIENT_ID` | no | Application ID of the [GitLab OAuth application](/Git-Repositories/gitlab.md) used for sign-in. |
+| `GITLAB_CLIENT_SECRET` | no | Secret of the GitLab OAuth application. |
+| `GIT_PROVIDER` | no | Set to `gitlab` when the repository lives on a self-hosted GitLab (for gitlab.com it is detected from the URL). |
+| `GIT_BRANCH` | no | Branch to serve. Defaults to `main`. |
 | `GIT_ROOT` | no | Subdirectory of the repository that contains the wiki. |
+| `PUBLIC_ORIGIN` | no | External origin as users reach the wiki, e.g. `https://wiki.example.com`. Set it behind a reverse proxy so OAuth redirects and absolute links do not depend on forwarded headers. |
+| `GOOGLE_SITE_VERIFICATION` | no | Google Search Console verification token (the `content` value of the "HTML tag" method); emitted as a meta tag on every page. |
 
 See the [Installation](/Installation/index.md) guides for where to set these on each platform, and [Access Control](/access-control.md) for how permissions are derived from the repository.
+
+## Search engines
+
+A wiki on a public repository is search-engine friendly out of the box: it serves a `robots.txt` that allows indexing of pages (but not the editor or API), a `sitemap.xml` with all visible pages, and per-page browser titles in the form `Page - Wiki Name - Commonplace`. A wiki on a private repository serves a `robots.txt` that disallows all crawling and no sitemap. There is nothing to configure; the behavior follows the repository's visibility.
 
 ## Wiki settings: `.commonplace/settings.yaml`
 

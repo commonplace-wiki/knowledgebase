@@ -19,12 +19,13 @@ Replace [https://github.com/commonplace/knowledge](https://github.com/commonplac
 
 ```bash
 docker run -p 3000:3000 \
-  -e SESSION_SECRET=$(openssl rand -hex 32) \
   -e GIT_REPO=https://github.com/commonplace/knowledge \
   commonplacewiki/commonplace
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Without GitHub App credentials, the setup screen guides you through creating one; alternatively create it manually and pass `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`. See [Install GitHub App](/Installation/github-app.md).
+Open [http://localhost:3000](http://localhost:3000). A public repository is browsable right away; sign-in is only needed for editing (and for reading private repositories). Without GitHub App credentials, the setup screen guides you through creating an app in one click; alternatively create it manually and pass `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` (see [GitHub App](/Installation/github-app.md)), or sign in with a personal access token, no app needed.
+
+For any deployment that outlives a quick test, also set `SESSION_SECRET`: generate it once with `openssl rand -hex 32` and keep it stable, see [Configuration](/configuration.md).
 
 For a hosted instance, follow [Install on Vercel](/Installation/install-on-vercel.md) instead.
 
