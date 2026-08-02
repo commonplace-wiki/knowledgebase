@@ -1,6 +1,7 @@
 # Update Log
 
 ## 2026-08-02
+* **Deletion**: Deleted [Test Page](/test-page.md).
 * **Update**: Modified [Open Knowledge Format](/open-knowledge-format.md).
 
 ## 2026-07-24
