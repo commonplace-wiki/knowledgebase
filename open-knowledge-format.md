@@ -2,10 +2,10 @@
 type: Wiki Page
 title: Open Knowledge Format
 description: How Commonplace maps to the OKF specification, and the Markdown conventions for writing pages.
-timestamp: '2026-07-19T19:59:19.623Z'
+timestamp: '2026-08-02T14:02:08.875Z'
 ---
 
-Commonplace stores content following the [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), an open specification for keeping knowledge in plain files inside a Git repository. This has a practical consequence: your wiki remains open is not locked into Commonplace. Any OKF-aware tool, any text editor, and any AI agent can work with the same repository.
+Commonplace stores content following the [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), an open specification for keeping knowledge in plain Markdown files inside a Git repository. This has a practical consequence: your wiki remains open is not locked into Commonplace. Any OKF-aware tool, any text editor, and any AI agent can work with the same repository.
 
 ## The Format
 
@@ -19,7 +19,7 @@ An OKF knowledge bundle is a Git repository of concepts. Commonplace maps its in
 | Bundle-absolute links | `[Page](/folder/page.md)` links between pages.                                          |
 | Assets                | Files in the `assets/` folder.                                                          |
 
-## What this buys you
+## Benefits
 
 * **Simplicity.** The content is readable without any running software: it is Markdown in Git.
 * **Interoperability.** AI agents work with the same files through the [MCP server](/mcp.md), and search or catalog tools can index the repository directly.
