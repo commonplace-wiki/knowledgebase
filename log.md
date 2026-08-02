@@ -1,5 +1,8 @@
 # Update Log
 
+## 2026-08-02
+* **Update**: Modified [Open Knowledge Format](/open-knowledge-format.md).
+
 ## 2026-07-24
 * **Update**: Modified [GitHub App](/Installation/github-app.md).
 * **Update**: Modified [GitHub App](/Installation/github-app.md).
